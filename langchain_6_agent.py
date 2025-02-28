@@ -18,7 +18,7 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key=api_key, temperature=0, m
 #print(result)
 
 # 使用Tavily AI搜索引擎
-os.environ['TAVILY_API_KEY'] = "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"
+os.environ['TAVILY_API_KEY'] = get_property_value("tavily_api_key")
 tavilySearch = TavilySearchResults(max_results=1)
 #search = tavilySearch.invoke("台北天氣如何？")
 # tavilySearch會回傳一個list，裡面包含了網頁搜索結果
