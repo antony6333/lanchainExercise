@@ -2,3 +2,4 @@
 .idea
 chroma_data_dir/*
 config.properties
+__pycache__
