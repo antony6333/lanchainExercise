@@ -2,7 +2,7 @@
 import warnings
 from datetime import datetime
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 warnings.filterwarnings("ignore", category=UserWarning, module="onnxruntime") #windows2016 < widows10
 from langchain_community.document_loaders import YoutubeLoader

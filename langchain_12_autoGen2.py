@@ -5,7 +5,7 @@ from langchain_experimental.tabular_synthetic_data.prompts import SYNTHETIC_FEW_
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 設定 OpenAI API 金鑰
 api_key = get_property_value("openai_api_key")

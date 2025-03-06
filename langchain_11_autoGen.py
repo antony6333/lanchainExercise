@@ -2,7 +2,7 @@
 from langchain_experimental.synthetic_data import create_data_generation_chain
 from langchain_openai import ChatOpenAI
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 設定 OpenAI API 金鑰
 api_key = get_property_value("openai_api_key")

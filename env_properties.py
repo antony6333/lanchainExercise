@@ -1,7 +1,7 @@
-
-file_path = "config.properties"
-
-def read_properties():
+default_file_path = "config.properties"
+def read_properties(file_path=None):
+    if file_path is None:
+        file_path = default_file_path
     props = {}
     with open(file_path, 'r', encoding='utf-8') as file:
         for line in file:

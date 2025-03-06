@@ -4,7 +4,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import chat_agent_executor
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 設定 OpenAI API 金鑰
 api_key = get_property_value("openai_api_key")

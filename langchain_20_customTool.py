@@ -6,7 +6,7 @@ from langchain.memory import ConversationBufferWindowMemory
 from langchain_core.tools import BaseTool
 from langchain_openai import ChatOpenAI
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 #範例參考: https://www.pinecone.io/learn/series/langchain/langchain-tools/
 

@@ -9,7 +9,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 設定 OpenAI API 金鑰
 api_key = get_property_value("openai_api_key")

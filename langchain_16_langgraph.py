@@ -12,7 +12,7 @@ from langgraph.constants import START, END
 from langgraph.graph import StateGraph
 from langgraph.types import Send
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 這要在WebBaseLoader之前設定，否則會有USER_AGENT environment variable not set的訊息
 os.environ['USER_AGENT'] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"

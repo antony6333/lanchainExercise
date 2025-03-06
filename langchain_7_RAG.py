@@ -6,7 +6,7 @@ from langchain.chains.history_aware_retriever import create_history_aware_retrie
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables import RunnableWithMessageHistory
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 warnings.filterwarnings("ignore", category=UserWarning, module="onnxruntime") #windows2016 < widows10
 from langchain.chains.combine_documents import create_stuff_documents_chain

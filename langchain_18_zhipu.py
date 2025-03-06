@@ -3,7 +3,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables.base import RunnableSequence
 from langchain_openai import ChatOpenAI
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 設定 zhipu API 金鑰
 api_key = get_property_value("zhipu_api_key")

@@ -2,7 +2,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 # 設定 OpenAI API 金鑰
 open_api_key = get_property_value("openai_api_key")

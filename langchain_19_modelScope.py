@@ -9,7 +9,7 @@
 #第一次run會有pytorch_model.bin下載模型進度提示，
 import warnings
 
-from read_properties import get_property_value
+from env_properties import get_property_value
 
 warnings.filterwarnings("ignore", category=UserWarning, module="onnxruntime")
 from langchain_chroma import Chroma
