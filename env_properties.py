@@ -1,4 +1,4 @@
-default_file_path = "config.properties"
+default_file_path = "c:/DEV/test/python/lanchainExercise/config.properties"
 def read_properties(file_path=None):
     if file_path is None:
         file_path = default_file_path
